@@ -16,4 +16,8 @@ func main() {
 	oddEven(2)
 	oddEven(3)
 
+	largestOfThree(1, 2, 3)
+	largestOfThree(5, 4, 3)
+	largestOfThree(3, 6, 4)
+
 }
