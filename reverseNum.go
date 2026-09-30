@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func reverseNum(num int) {
+func reverseNum(num int) int {
 	var result int = 0
 
 	for num != 0 {
@@ -15,5 +15,7 @@ func reverseNum(num int) {
 
 	}
 
-	fmt.Printf("Reveresed Num = %d\n", result)
+	fmt.Printf("6.  Reveresed Num = %d\n", result)
+
+	return result
 }
