@@ -20,4 +20,10 @@ func main() {
 	largestOfThree(5, 4, 3)
 	largestOfThree(3, 6, 4)
 
+	leapYear(2024)
+	leapYear(1900)
+	leapYear(2000)
+
+	reverseNum(123)
+
 }
