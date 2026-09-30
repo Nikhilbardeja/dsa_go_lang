@@ -26,4 +26,16 @@ func main() {
 
 	reverseNum(123)
 
+	checkPalindromeInt(12321)
+	checkPalindromeInt(65126)
+
+	checkPalindromeStr("12321")
+	checkPalindromeStr("65321")
+
+	countDig(1234)
+	countDig(0)
+
+	sumOfDig(12345)
+	sumOfDig(0)
+
 }
