@@ -38,4 +38,16 @@ func main() {
 	sumOfDig(12345)
 	sumOfDig(0)
 
+	fmt.Printf("11. Factorial = %d\n", factorialRec(5))
+	fmt.Printf("11. Factorial = %d\n", factorialLoop(5))
+
+	fibonacci()
+
+	prime(10)
+	prime(19)
+
+	primeN(10)
+
+	countFactors(16)
+
 }
