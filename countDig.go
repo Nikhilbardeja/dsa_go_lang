@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func countDig(num int) {
+func countDig(num int) int {
 	var i int = 0
 	for num != 0 {
 		num /= 10
@@ -10,5 +10,5 @@ func countDig(num int) {
 	}
 
 	fmt.Printf("9.  This number has %d digits.\n", i)
-
+	return i
 }

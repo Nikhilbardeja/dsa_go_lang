@@ -50,4 +50,25 @@ func main() {
 
 	countFactors(16)
 
+	gcd(48, 18)
+
+	lcm(3, 6)
+
+	armstrong(153)
+
+	fmt.Printf("19. Perfect Num(6) = %t\n", perfectNum(6))
+	fmt.Printf("19. Perfect Num(8) = %t\n", perfectNum(8))
+
+	fmt.Printf("20. 3^3 = %d\n", power(3, 3))
+
+	first(5)
+	second(5)
+	third(5)
+	fourth(5)
+	five(5)
+	six(5)
+	seven(5)
+	eight(5)
+	nine(5)
+	ten(5)
 }
