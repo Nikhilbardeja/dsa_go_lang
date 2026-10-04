@@ -71,4 +71,15 @@ func main() {
 	eight(5)
 	nine(5)
 	ten(5)
+
+	maxArray([]int{1, 2, 34, 43, 45, 3, 234, 25, 45, 23, 23})
+	minArray([]int{1, 2, 34, 43, 45, 3, 234, 25, 45, 23, 23, -8})
+	sumArray([]int{1, 2, -3, 1})
+	avgArray([]float32{1, 2, -3, 1})
+	linSearch([]int{1, 2, -3, 1}, -3)
+	revArray([]int{0, 1, 2, 3, 5, 4})
+	secMaxArray([]int{0, 0, 1, 2, 3, 5, 4})
+	countOddEvenArray([]int{0, 0, 1, 2, 3, 5, 4})
+	removeDupsArray([]int{0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5})
+	rightRotate([]int{1, 2, 3, 4, 5})
 }
