@@ -29,9 +29,6 @@ func main() {
 	checkPalindromeInt(12321)
 	checkPalindromeInt(65126)
 
-	checkPalindromeStr("12321")
-	checkPalindromeStr("65321")
-
 	countDig(1234)
 	countDig(0)
 
@@ -82,4 +79,14 @@ func main() {
 	countOddEvenArray([]int{0, 0, 1, 2, 3, 5, 4})
 	removeDupsArray([]int{0, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5})
 	rightRotate([]int{1, 2, 3, 4, 5})
+
+	revStr("ABC")
+	checkPalindromeStr("12321")
+	checkPalindromeStr("65321")
+
+	countVowelConsonant("aiouebcdf")
+
+	freqencyOfChar("aabcdj")
+
+	removeSpaces("a c b d ")
 }
