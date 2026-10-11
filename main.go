@@ -89,4 +89,11 @@ func main() {
 	freqencyOfChar("aabcdj")
 
 	removeSpaces("a c b d ")
+
+	fmt.Printf("46. Binary Search Result: %d\n", binarySearch([]int{1, 2, 3, 4, 5, 6, 7}, 7))
+	bubbleSort([]int{1, 234, 4, 554, 34, 46, 67, 245, 234, 5})
+	selectionSort([]int{1, 234, 4, 554, 34, 46, 67, 245, 234, 5})
+	insertionSort([]int{1, 234, 4, 554, 34, 46, 67, 245, 234, 5})
+
+	mergeSortedArrays([]int{1, 2, 3, 4, 5}, []int{6, 7, 8, 9})
 }
